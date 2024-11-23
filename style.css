@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 70px; /* Sesuaikan nilai ini dengan tinggi navbar */
+}
+
+
+
+img {
+  border-radius: 0; /* Menghilangkan efek oval */
+  width: 30%; /* Pastikan gambar sesuai area yang diinginkan */
+  height: auto; /* Proporsi gambar tetap */
+}
+
+
+/* Nama dan Foto Section */
+#name-photo h2 {
+  font-size: 2.5rem;
+  color: #221e1e;
+}
+
+#name-photo img {
+  color: #f1f1f1;
+  
+  border-radius: 0%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#name-photo p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+header .fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+header p {
+  font-size: 1.25rem;
+}
+
+header .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+header .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Styling for sections */
+#about {
+  margin-top: 50px;
+}
+
+#projects {
+  background-color: #f1f1f1;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #343a40;
+  color: white;
+}
+
+footer h5 {
+  color: #fff;
+}
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.modal-body img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.modal-footer {
+  justify-content: center;
+}
